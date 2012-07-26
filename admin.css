@@ -41,10 +41,6 @@ a.add-new-h2{
 	font-size: 13px !important;
 	text-shadow: 0px 1px 1px #fcc;
 }
-a#product_category-add-toggle{
-	visibility: hidden !important;
-	display: none !important;
-}
 #store_statistics_widget .this-month,
 #store_statistics_widget .last-month{
 	width: 50%;
@@ -135,14 +131,6 @@ ul.list{
 .wrap.frontpage_tools td input{
 	width: 100%;
 }
-
-#message.updated{
-	display: none;
-}
-#dashboard_right_now{
-	display: none;
-}
-
 .mp_orders_status .bar{
   width: 100%;
   height: 18px;
@@ -222,10 +210,6 @@ ul.list{
 .widefat tr.status-order_received td a.mp_order_status{background: none;}
 .widefat tr.status-order_paid td a.mp_order_status{background: none;}
 .widefat tr.status-order_shipped td a.mp_order_status{background: none;}
-
-.wpmudev-new{display: none;}
-
-#screen-options-link-wrap{display: none;}
 
 #adminmenuwrap{
 	bottom: 45px;
@@ -311,3 +295,5 @@ a, #adminmenu a, #the-comment-list p.comment-author strong a, #media-upload a.de
 .wp-menu-image{display: none;}
 
 li#collapse-menu{display: none;}
+
+#adminmenuback, #adminmenuwrap{background-color: #f5f5f5;}
