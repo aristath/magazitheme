@@ -5,7 +5,7 @@ Plugin Name: Magazi Admin Theme
 Plugin URI: http://magazi.org
 Description: Magazi.org Admin Theme - Upload and Activate.
 Author: Aristeides Stathopoulos
-Version: 1.0
+Version: 1.0.1
 Author URI: http://aristeides.com
 */
 

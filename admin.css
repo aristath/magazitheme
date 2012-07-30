@@ -214,11 +214,10 @@ ul.list{
 #adminmenuwrap{
 	bottom: 45px;
 	left: 0;
-	overflow: auto;
 	position: absolute;
 	right: 0;
 	top: 0px;
-	overflow-x: hidden;
+	overflow: visible;
 }
 #adminmenu li.wp-menu-open{
 	border-bottom: 1px solid #DFDFDF;
@@ -254,7 +253,7 @@ ul.list{
 #adminmenu a.menu-top{
 	font-weight: normal;
 }
-a, #adminmenu a, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, .plugins a.delete, .ui-tabs-nav a{
+#adminmenu a, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, .plugins a.delete, .ui-tabs-nav a{
 	color: #333;
 }
 #adminmenuback, #adminmenuwrap, #adminmenu, #adminmenu .wp-submenu, #adminmenu .wp-submenu-wrap, .folded #adminmenu .wp-has-current-submenu .wp-submenu{
@@ -297,3 +296,5 @@ a, #adminmenu a, #the-comment-list p.comment-author strong a, #media-upload a.de
 li#collapse-menu{display: none;}
 
 #adminmenuback, #adminmenuwrap{background-color: #f5f5f5;}
+.toplevel_page_wpmudev #wpcontent, #footer{margin-left: 305px;}
+
