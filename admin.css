@@ -200,10 +200,13 @@ ul.list{
 	display: none;
 }
 
-li#collapse-menu{
-	display: none;
+.folded .wp-menu-image {
+	display:inline;
 }
-
 #adminmenuback, #adminmenuwrap{
 	background-color: #f5f5f5;
+}
+.folded #adminmenu .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu{
+	left: 32px;
 }
