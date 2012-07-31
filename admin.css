@@ -3,10 +3,12 @@
 	font-size: 5px;
 	color: #fff;
 }
+
 #mp-single-statuses.misc-pub-section span{
 	clear: both;
 	display: block;
 }
+
 #mp-single-statuses.misc-pub-section span.current,
 #mp-single-statuses.misc-pub-section span a{
 	display: block; 
@@ -19,21 +21,25 @@
 	text-decoration: none;
 	font-size: 15px;
 }
+
 #mp-single-statuses.misc-pub-section span.current{
 	background: #c00;
 }
+
 a.add-new-h2{
 	background: #c00;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 }
+
 .widefat th.column-sales,
 .widefat td.column-sales,
 .widefat th.column-stock,
 .widefat td.column-stock{
 	width: 90px;
 }
+
 .wrap .add-new-h2{
 	background: #c00 !important;
 	color: #fff !important;
@@ -41,9 +47,11 @@ a.add-new-h2{
 	font-size: 13px !important;
 	text-shadow: 0px 1px 1px #fcc;
 }
+
 .red{
 	color: #bd362f;
 }
+
 .green{
 	color: #46a546;
 }
@@ -52,6 +60,7 @@ a.add-new-h2{
 p.help, p.description, span.description, .form-wrap p{
 	font-size: 13px;
 }
+
 input.button-primary{
 	-moz-border-bottom-colors: none !important;
 	-moz-border-image: none !important;
@@ -77,23 +86,28 @@ input.button-primary{
 	background-repeat: repeat-x !important;
 	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
 }
+
 ul.list{
 	list-style: disc;
 	list-style-type: disc;
 	margin-left: 2em;
 }
+
 #mp-order-shipping-info table{
 	width: 100%;
 }
+
 #mp-order-shipping-info table tr td{
 	padding: 5px;
 	border-bottom: 1px solid #dedede;
 }
+
 #mp-order-products p,
 #mp-order-shipping-info p{
 	font-size: 18px;
 	font-weight: bold;
 }
+
 .wrap{
 	padding: 10px;
 	background: #fff;
@@ -101,9 +115,11 @@ ul.list{
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 }
+
 .wrap.frontpage_tools td input{
 	width: 100%;
 }
+
 .widefat tr.status-order_received td a.mp_order_status{background: none;}
 .widefat tr.status-order_paid td a.mp_order_status{background: none;}
 .widefat tr.status-order_shipped td a.mp_order_status{background: none;}
@@ -116,11 +132,13 @@ ul.list{
 	top: 0px;
 	overflow: visible;
 }
+
 #adminmenu li.wp-menu-open{
 	border-bottom: 1px solid #DFDFDF;
 	border-top: 1px solid #FFFFFF;
 	margin: 0;
 }
+
 #adminmenu li.menu-top > a,
 .postbox .hndle,
 #poststuff h3, .metabox-holder h3{
@@ -131,6 +149,7 @@ ul.list{
 	padding: 10px 20px;
 	text-shadow: 0 1px 0 #FFFFFF;
 }
+
 #adminmenu li.menu-top:hover > a, #adminmenu li.menu-top.focused > a, #adminmenu li.menu-top > a:focus,
 .postbox .hndle,
 #poststuff h3, .metabox-holder h3{
@@ -141,21 +160,26 @@ ul.list{
 	padding: 10px 20px;
 	text-shadow: 0 1px 0 #FFFFFF;
 }
+
 #adminmenu li.menu-top:hover > a, #adminmenu li.menu-top.focused > a, #adminmenu li.menu-top > a:focus{
 	background-color: #808080;
 	background-image: -moz-linear-gradient(center top , #808080, #6D6D6D);
 	color: #FFFFFF;
 	text-shadow: 0 -1px 0 #333333;
 }
+
 #adminmenu a.menu-top{
 	font-weight: normal;
 }
+
 #adminmenu a, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, .plugins a.delete, .ui-tabs-nav a{
 	color: #333;
 }
+
 #adminmenuback, #adminmenuwrap, #adminmenu, #adminmenu .wp-submenu, #adminmenu .wp-submenu-wrap, .folded #adminmenu .wp-has-current-submenu .wp-submenu{
 	width: 300px;
 }
+
 #wpcontent, #footer{
 	margin-left: 305px !important;
 }
@@ -176,12 +200,15 @@ ul.list{
 	padding: 5px;
 	background: #222;
 }
+
 #wpwrap{
 	top: 9px;
 }
+
 #wpadminbar .quicklinks > ul > li{
 	border: none;
 }
+
 #wpadminbar .ab-top-menu > li:hover > .ab-item, 
 #wpadminbar .ab-top-menu > li.hover > .ab-item, 
 #wpadminbar .ab-top-menu > li > .ab-item:focus, 
@@ -190,12 +217,14 @@ ul.list{
 	background: none;
 	background: transparent;
 }
+
 #adminmenu .wp-submenu a{
 	font-size: 14px;
 	padding: 12px 12px 12px 20px;
 	border-bottom: 1px solid #f2f2f2;
 	color: #666;
 }
+
 .wp-menu-image{
 	display: none;
 }
@@ -203,9 +232,17 @@ ul.list{
 .folded .wp-menu-image {
 	display:inline;
 }
+
+@media screen and (max-width:900px){
+	.wp-menu-image {
+		display:inline;
+	}
+}
+
 #adminmenuback, #adminmenuwrap{
 	background-color: #f5f5f5;
 }
+
 .folded #adminmenu .wp-submenu,
 .folded #adminmenu .wp-has-current-submenu .wp-submenu{
 	left: 32px;
