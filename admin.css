@@ -156,8 +156,8 @@ ul.list{
 #adminmenuback, #adminmenuwrap, #adminmenu, #adminmenu .wp-submenu, #adminmenu .wp-submenu-wrap, .folded #adminmenu .wp-has-current-submenu .wp-submenu{
 	width: 300px;
 }
-#wpcontent, .toplevel_page_wpmudev #wpcontent, #footer{
-	margin-left: 305px;
+#wpcontent, #footer{
+	margin-left: 305px !important;
 }
 
 .wp-menu-arrow{
