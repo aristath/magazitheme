@@ -247,3 +247,7 @@ ul.list{
 .folded #adminmenu .wp-has-current-submenu .wp-submenu{
 	left: 32px;
 }
+
+.folded #wpcontent, .folded #footer{
+	margin-left: 52px !important;
+}
